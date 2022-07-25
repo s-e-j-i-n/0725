@@ -1,0 +1,63 @@
+li{list-style: none;}
+/* body{overflow-x: hidden;} */
+#gnb a{ color: black; text-decoration:none;}
+
+#hd > div{
+    border-bottom:1px solid black
+}
+
+
+.fa-xmark {display: none;}
+.fa-bars {display: block;}
+
+.open > .fa-xmark {display: block;}
+.open > .fa-bars {display: none;}
+
+/* open이 주어졌을 때 ul */
+.open + ul{display: flex !important; 
+        position: fixed; background-color: #ccc;
+        left: 0; right: 0; top:80px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 30px;
+        line-height: 2;}
+
+.open + #gnb:before{
+    content: "";
+    display: block;
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    background-color: #ccc;
+    left: 0; right: 0; margin: 0 auto;
+    transform: rotate(-45deg);
+    top:-15px;
+}
+
+#main > div {height: 100vh;}
+#gnb a.act{color: aqua;}
+
+#portfolio .swiper-slide{
+    max-height: 700px; /*데스크탑 이미지의 실제 높이*/
+    height: 100vw;
+} 
+#portfolio .sir{
+    /*background-image: url("https://sazinonsil.com/upload_file_path/1641561155011_img.jpg");*/
+    background-image: url("/sejin/A.jpg")
+}
+#portfolio .hardcord{
+    background-image: url("/sejin/B.jpg")
+}
+#portfolio .ecom{
+    background-image: url("/sejin/C.jpg")
+}
+
+/* 무임승차 : 최적화하기*/
+#me h2{background-color: white; 
+    transition-delay: 1s; 
+    transition-duration: 0.8s; 
+    color: black;}
+/* #me .aos-animate h2{background-color: aqua !important; 
+                color: white !important;} */
+

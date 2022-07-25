@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="shortcut icon" type="image/x-icon" href="/sejin/favicon_mini.png" />
+	<link rel="apple-touch-icon" href="/sejin/icon.png" />
+    <link rel="apple-touch-icon-precomposed" href="/sejin/icon.png"> 
+    <meta name="msapplication-TileImage" content="/sejin/favicon.png" size="270x270" />
+    <!-- ->메타포 디자인 . 파비콘 바로가기 핸드폰 홈화면 추가-->
+
+    <title>💙Ⓢㅔ진의 포트폴리오💙</title>
+    <!-- SEO 최적화 ( 검색엔진 최적화라는 뜻)
+        태그 추적기 (구글 애널리틱스)/(페이스북 픽셀) -->
+
+    <meta name="description" content="파도처럼 유연한 디자이너" />
+    <link rel="canonical" href="http://sjchun1381.dothome.co.kr" /> 
+    <meta property="og:locale" content="ko_KR"/>
+    <meta property="og:site_name" content="천세진의 포트폴리오" />
+    <meta property="og:url" content="//sjchun1381.dothome.co.kr"/>
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="💙Ⓢㅔ진의 포트폴리오💙" />
+    <meta property="og:description" content="저의 작업들을 구경해 보실래요?" />
+    <meta property="og:image" content="/sejin/og_img.png" />
+    <!-- https: 그냥 삭제 -->
+    <script src="https://kit.fontawesome.com/3b18c10dfd.js" crossorigin="anonymous"></script>
+    <!-- 스타일 순서 : 폰트 계열 -> 웹 표준 (부트스트랩) -> 플러그인 스타일 -> 나의 커스텀 스타일 -->
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" 
+        integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css"/>
+    <link href="//unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="/my/css/style.css?ver=<?php echo time();?>">
+
+
+</head>
+<body>
+    <div class="wrap">
+        <!-- <header id="hd">
+            <div class="
+            container-md 
+            px-0 
+            d-flex 
+            justify-content-center
+            justify-content-md-between
+            flex-column
+            flex-md-row
+            align-items-center">
+                <h1>
+                    svg
+                </h1>
+                <button class="d-none">햄버거 svg</button>
+                <ul id="gnb" class="d-flex">
+                    <li class="pl-md-3 pr-md-0 pl-2 pr-2"><a href='#portfolio'>포트폴리오</a></li>
+                    <li class="pl-md-3"><a href='#md'>나의능력</a></li>
+                    <li class="pl-md-3"><a href='#preinterview'>사전인터뷰</a></li>
+                </ul>
+            </div>
+        </header> -->
+        <header id="hd">
+            <div class="container-md d-flex justify-content-between align-items-center fixed-top">
+                <h1><a href="#none"><img src="/sejin/lololo.png" alt="#"></a></h1>
+
+                <button class="allMenu d-md-none">
+                    <i class="fa-solid fa-bars">
+                        <span class="sr-only">열기</span>
+                    </i>
+                    <i class="fa-solid fa-xmark">
+                        <span class="sr-only">닫기</span>
+                    </i>
+                </button>
+                <ul id="gnb" class="d-md-flex d-none">
+                    <li class="pl-md-3"><a href="#portfolio">포트폴리오</a></li>
+                    <li class="pl-md-3"><a href="#me">나야나</a></li>
+                    <li class="pl-md-3"><a href="#preinterview">인터뷰</a></li>
+                </ul>
+            </div>
+        </header>
+
+       
+        <section id="main">
+            <!-- 포트폴리오 스와이퍼 -->
+            <div id="portfolio">
+                <div class="swiper portfolio">
+                    <div class="swiper-wrapper">
+                    <!-- Slides -->
+                    <div class="swiper-slide sir">
+                        <div class="d-flex felx-column justify-content-center align-items-center">
+                            <h2>
+                                1. 그누보드 포트폴리오 반응형 배너 (1080 * 1080)
+                                <strong>스타일처리 (퍼블)</strong>
+                            </h2>
+                            <div>
+                                <a href="figma주소">피그마</a>
+                                <a href="/gnu/">사이트미리보기</a>
+                                <a href="깃허브">깃허브</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide hardcord">
+                        <div class="d-flex felx-column justify-content-center align-items-center">
+                            <h2>
+                                <!-- 하드코딩도 잘 못하는!
+                                <strong>(퍼블)</strong> -->
+                            </h2>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide ecom">
+                        <div class="d-flex felx-column justify-content-center align-items-center">
+                            <!-- <h2>
+                                e커머스 제작이 가능한지
+                                <strong>기획</strong>
+                            </h2> -->
+                        </div>
+                    </div>
+                    </div>
+
+                    <!-- If we need pagination -->
+                    <div class="swiper-pagination"></div>
+                
+                    <!-- If we need navigation buttons -->
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div>
+                
+                    <!-- If we need scrollbar -->
+                    <div class="swiper-scrollbar"></div>
+                </div>
+  
+            </div>
+            
+            <div id="me">
+                <div class="d-lg-flex">
+                    <div class="col-lg-6 meimg">
+                        <div data-aos="zoom-out"
+                         data-aos-offset="500" 
+                         data-aos-duration="500">
+                            <h5>디자이너</h5>
+                            <h2>천세진 입니다!</h2>
+                            <img src="/sejin/all_02.png" class="img-fluid" alt="나">
+                        </div>
+
+                    </div>
+                    <div class="col-lg-6 skill">
+                       <dl class="d-md-felx flex-wrap">
+                        <dt class="col-md-4">graphic</dt>
+                        <dd class="col-md-8">
+                            <div>
+                                <p>70%</p>
+                            </div>
+                        </dd>
+                        <dt class="col-md-4">drawing</dt>
+                        <dd class="col-md-8">
+                            <div>
+                                <p>88%</p>
+                            </div>
+                        </dd>
+                        <dt class="col-md-4">cord</dt>
+                        <dd class="col-md-8">
+                            <div>
+                                <p>0.5%</p>
+                            </div>
+                        </dd>
+                       </dl>
+                    </div>
+
+
+                </div>
+            </div>
+            <div id="preinterview">
+                <h3>사전인터뷰</h3>
+                <dl>
+                    <dt>제가 가장 잘 하는 것은..</dt>
+                    <dd>사람들이 보기에 가장 만족할 수 있는 디자인을 <br>
+                        생각하고 구현하는 것입니다.</dd>
+
+                    <dt>제가 좋아하는 것은..</dt>
+                    <dd>NONE</dd>
+
+                    <dt>디자이너로서의 저의 목표는..</dt>
+                    <dd>NONE/dd>
+                </dl>
+            </div>
+        </section>
+
+        <footer id="ft">
+            나의 대외적인 정보 (전화번호/카카오톡)
+            <a href="tel.01066241676">바로 연락</a>
+        </footer>
+    </div>
+
+    <!-- 자바스크립트 : 플러그인 -> jquery 코어 -> jquery 플러그인 -> 나의 js -->
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+    <script src="/my/js/base.js?ver=<?php echo time(); ?>"></script>
+</body>
+</html>
