@@ -41,7 +41,7 @@ li{list-style: none;}
 #portfolio .swiper-slide{
     max-height: 700px; /*데스크탑 이미지의 실제 높이*/
     height: 100vw;
-} 
+}
 #portfolio .sir{
     /*background-image: url("https://sazinonsil.com/upload_file_path/1641561155011_img.jpg");*/
     background-image: url("/sejin/A.jpg")
@@ -58,6 +58,6 @@ li{list-style: none;}
     transition-delay: 1s; 
     transition-duration: 0.8s; 
     color: black;}
-/* #me .aos-animate h2{background-color: aqua !important; 
-                color: white !important;} */
+#me .aos-animate h2{background-color: aqua !important; 
+                color: white !important;}
 

@@ -1,0 +1,9 @@
+*{ font-size: 14px;}
+a{text-decoration: none;}
+a:hover {
+    
+    text-decoration: none;}
+#gnb .gnb_1dli:hover > a {
+    color: #4f2a05;}
+
+.sejin_wrap > section{ height: 100vh;}

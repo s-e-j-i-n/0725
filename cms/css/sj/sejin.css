@@ -1,0 +1,205 @@
+*{ font-size: 14px;}
+html{font-family: 'Noto Sans KR', sans-serif;}
+h1,h2,h3,h4,h5{
+    font-family: 'Noto Sans KR', sans-serif;
+}
+p{  font-family: 'Noto Sans KR'; font-weight: 400;}
+
+a:hover {text-decoration: none;}
+a{ text-decoration: none;}
+
+.fw300{ font-weight: 300 !important;}
+.fw400{ font-weight: 400 !important;}
+.fw500{ font-weight: 500 !important;}
+.fw700{ font-weight: 700 !important;}
+.fw900{ font-weight: 900 !important;}
+/* 폰트 */
+
+.sejin_wrap > section{ height: 100vh;}
+
+#gnb .gnb_1dli:hover > a {
+    color: #4f2a05;}
+
+
+#firstbanner{
+    background: url(/sejin/first.png) no-repeat center;
+    background-size: cover;
+    height:33vw;
+    margin: 25vh 0 0 0;
+}
+
+
+#firstbanner .para{
+    color: #76554A;
+    line-height: 2.2;
+    font-weight: bolder;
+}
+
+#hd{ background: rgba(101, 80, 64, 0.8);}
+#hd_wrapper > div:after{
+    content: "";
+    order:3
+}
+
+
+#main, 
+#main .swiper-slide{ height: 54vw; max-height:100vh; }
+
+@media (min-width:992px){
+    #hd{ background: linear-gradient(#725e4c,transparent);
+    }
+    #hd_wrapper>div:after{
+       display: none;
+    }
+    
+}
+
+.swiper-slide.sbg0{background-image: url("/sejin/mainbanner_01.png");
+                   background-size: 100%;}
+.swiper-slide.sbg1{background-image: url("/sejin/mainbanner_02.png");
+                   background-size: 100%;}
+.swiper-slide.sbg2{background-image: url("/sejin/mainbanner_03.png");
+                   background-size: 100%;}
+
+.swiper-button-next::after,
+.swiper-button-prev::after {color: white; opacity: 40%;}
+
+.gnb_1da.act{  color:#4f2a05}
+
+
+#gnb_all h2{ display: none;}
+#gnb_all .gnb_al_li{ float:none; width: auto; min-height: auto;}
+#gnb_all{ left:0; box-shadow: none; border:0; min-width: 50%; width: calc(100% - 100px);}
+#gnb .gnb_close_btn{ top: 50%;
+    right: 0;
+    transform: translate(77px, -50%);}
+
+#gnb_all .gnb_al_li:hover > a{color:#655040; font-weight: bold;}
+
+
+#promise{padding: 13vw 0;
+        line-height: 2rem;}
+#promise .depth_01 li img{ margin: 40px 0;
+                width: 70%;}
+
+/* 베스트 상품3개 */
+
+#bestproducts{
+    background: url(/sejin/best_bg.png) no-repeat center;
+    background-size: cover;
+    height:150vw
+}
+#bestproducts .best_01, .best_02, .best_03{
+    line-height: 130%;
+    letter-spacing: 2.5px;
+    align-items: center;
+}
+#bestproducts .best_01{color: #1C4685;}
+#bestproducts .best_02{color: #A44766;}
+#bestproducts .best_03{color: #0C574B;}
+#bestproducts .text_img{ margin: 20px 0 0 0;}
+#bestproducts .depth_01 img{ width: 55%;}
+
+#bestproducts button{width: 110px; line-height: 40px;
+    background-color: transparent;
+    background-color: #ffffff10;
+    font-size: 15px; font-weight: 500;
+    margin-top: 2rem;}
+#bestproducts .best_01 button{color: #1C4685; border:1px solid #1C4685;}
+#bestproducts .best_02 button{color: #A44766; border:1px solid #A44766;}
+#bestproducts .best_03 button{color: #0C574B; border:1px solid #0C574B;}
+
+/* 모든 제품 소개 */
+#all{ margin: 10vw 0;}
+#all img{width: 109%;
+margin: 0 !important;}
+
+#secondbanner{
+    background: url(/sejin/seconbanner.png) no-repeat center;
+    background-size: cover;
+    height:38vw
+}
+
+#productsArea{
+    background: url(/sejin/all_bg.png) no-repeat center;
+    background-size: cover;
+    height:36vw;
+    color:white;
+}
+
+#productsArea {margin: 25vh 0 0 0;}
+#productsArea img{ width: 85%; margin-bottom: 25px; }
+#productsArea h4 {font-size: 16px;
+                line-height: 1.7;}
+#productsArea p {font-weight: 300 !important;}
+#productsArea .btns {padding-top: 16vh;}
+#productsArea button{width: 100px; line-height: 40px;
+                    background-color: transparent;
+                    background-color: #ffffff10;
+                    color: white;
+                    border: 0.5px solid white;
+                    font-size: 12px;
+                    margin-top: 2rem;}
+
+/* 이벤트페이지 */
+
+#event{
+    background: url(/sejin/event_bg.png) no-repeat center;
+    background-size: cover;
+    height:80vw;
+    margin: 40vh 0 40vh 30vh;
+}
+#event .left{width: 40rem;}
+#event .buying img {width :70%}
+
+/* 폼태그 */
+
+#form{
+    background: url(/sejin/form_bg.png) no-repeat center;
+    background-size: cover;
+    height:47vw;
+}
+#form h3{padding: 3rem 0 2.2rem 0;
+        color: #fff !important;}
+#form p{color: #fff; font-weight: 300; opacity: 70%;}
+#form strong{ color: #fff; letter-spacing:7px; font-weight: 500; }
+
+.req:before{
+    color: rgb(255, 150, 150) !important;
+    margin-left: 0.5rem;
+}
+#member li strong:before{
+    content: "*";
+    color: transparent;
+    display: inline-block;
+    margin-left: 0.5rem; 
+}
+#member li [type='text']:focus + span{ display: block !important;}
+.purchase_btn {
+	background: #CA9F8D;
+    color: #FFFFFF;
+    font-size: 12px !important;
+    width: 130px;
+    height: 45px;
+    line-height: 1;
+    border: none;
+}
+#form input {
+    line-height: 3rem;
+    background-color: #F4DCDF55;
+    color: #fff;
+    border: 0.5px solid #CA9F8D !important;
+}
+#form input{}
+#form input::placeholder {color:#fff;}
+
+#insta{padding:40vh 0 }
+
+#map{
+    background: url(/sejin/map_bg.png) no-repeat center;
+    background-size: cover;
+    height:52vw;
+    padding: 10vh 0;
+}
+#map h4{ padding-bottom: 2.5rem;}
+#map img{ padding-bottom: 3.7rem;}
